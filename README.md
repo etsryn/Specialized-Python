@@ -54,23 +54,23 @@ And many more...
 
 ```
 Specialized-Python/
-│-- Pandas/
-│-- NumPy/
-│-- Scikit-Learn/
-│-- Seaborn/
-│-- Matplotlib/
-│-- FastAPI/
-│-- REST API/
-│-- TensorFlow/
-│-- PyTorch/
-│-- NLTK/
-│-- SpaCy/
-│-- OpenCV/
-│-- Statsmodels/
-│-- XGBoost/
-│-- LightGBM/
-│-- Flask/
-│-- Django/
+│-- Pandas/                NOT IN ACTION
+│-- NumPy/                NOT IN ACTION
+│-- Scikit-Learn/                NOT IN ACTION
+│-- Seaborn/                NOT IN ACTION
+│-- Matplotlib/                NOT IN ACTION
+│-- FastAPI/                NOT IN ACTION
+│-- REST API/                NOT IN ACTION
+│-- TensorFlow/                NOT IN ACTION
+│-- PyTorch/                NOT IN ACTION
+│-- NLTK/                NOT IN ACTION
+│-- SpaCy/                NOT IN ACTION
+│-- OpenCV/                NOT IN ACTION
+│-- Statsmodels/                NOT IN ACTION
+│-- XGBoost/                NOT IN ACTION
+│-- LightGBM/                NOT IN ACTION
+│-- Flask/                NOT IN ACTION
+│-- Django/                NOT IN ACTION
 │-- README.md
 ```
 Each folder contains **structured code snippets, practical examples, and documentation**.
