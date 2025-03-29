@@ -142,7 +142,7 @@ This repository is distributed under the **MIT License**, allowing open-source c
 For discussions, questions, or feedback, feel free to reach out:
 - **GitHub Issues** – Report bugs or suggest improvements.
 - **Email** – your.email@example.com (Replace with your actual email).
-- **LinkedIn** – [Rayyan Ashraf](https://www.linkedin.com/in/yourprofile).
+- **LinkedIn** – [Rayyan Ashraf](https://www.linkedin.com/in/rayyan-ashraf/).
 
 ---
 
