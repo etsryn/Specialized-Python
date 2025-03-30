@@ -241,7 +241,7 @@ Install Required Library
 !pip install pyarrow
 ```
 
-# Reading a Parquet File:
+Reading a Parquet File:
 
 ```python
 df = pd.read_parquet("data.parquet")
