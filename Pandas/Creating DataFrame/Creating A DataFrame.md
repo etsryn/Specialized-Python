@@ -60,7 +60,7 @@ If you print `df`, following will be the output
   -  The `DataFrame` consists of a single unnamed **column**.
 
 ```python
-lst = ['Geeks', 'For', 'Geeks', 'is', 'portal', 'for', 'Geeks']
+lst = ['Pandas', 'Library', 'Manipulates', 'Data', 'Faster', 'and', 'Efficiently']
 
 df = pd.DataFrame(lst)
 ```
@@ -68,13 +68,13 @@ df = pd.DataFrame(lst)
 If you print `df`, following will be the output
 > ```
 >        0
-> 0   Geeks
-> 1     For
-> 2   Geeks
-> 3      is
-> 4  portal
-> 5     for
-> 6   Geeks
+> 0   Pandas
+> 1     Library
+> 2   Manipulates
+> 3      Data
+> 4  Faster
+> 5     and
+> 6   Efficiently
 > ```
 
 # Creating DataFrame from dict of Numpy Array
