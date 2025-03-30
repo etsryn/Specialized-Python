@@ -47,11 +47,11 @@ df = pd.DataFrame()
 ```
 
 > If you print `df`, following will be the output
-  ```
-  Empty DataFrame
-  Columns: []
-  Index: []
-  ```
+> ```
+> Empty DataFrame
+> Columns: []
+> Index: []
+> ```
 
 # Creating a DataFrame from a List
 
