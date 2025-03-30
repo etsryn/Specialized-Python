@@ -19,21 +19,6 @@ Pandas' `DataFrame` is a powerful tool that allows us to store and manipulate da
   pip install pandas
   ```
 
-<br />
-
-- Install OpenPyXL (*if not already installed* )
-
-  - If Installing on `Google Colab`
-
-  ```
-  !pip install openpyxl
-  ```
-
-  - If Installing on `Command Prompt` or `Powershells` like of `VS Code`
-  ```
-  pip install openpyxl
-  ```  
-
 ---
 
 # Importing Required Library
