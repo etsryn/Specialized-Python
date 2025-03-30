@@ -69,11 +69,11 @@ If you print `df`, following will be the output
 > ```
 >        0
 > 0   Pandas
-> 1     Library
+> 1   Library
 > 2   Manipulates
-> 3      Data
-> 4  Faster
-> 5     and
+> 3   Data
+> 4   Faster
+> 5   and
 > 6   Efficiently
 > ```
 
