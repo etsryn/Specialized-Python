@@ -42,21 +42,16 @@ import pandas as pd
 
 - An empty `DataFrame` in **pandas** is a table with no data but can have defined **column** names and indexes. It is useful for setting up a structure before adding data dynamically. An empty `DataFrame` can be created just by calling a **dataframe constructor**.
 
-> Import Pandas library shown as below
-```python
-import pandas as pd
-```
-
 ```python
 df = pd.DataFrame()
 ```
 
 > If you print `df`, following will be the output
-```
-Empty DataFrame
-Columns: []
-Index: []
-```
+  ```
+  Empty DataFrame
+  Columns: []
+  Index: []
+  ```
 
 # Creating a DataFrame from a List
 
