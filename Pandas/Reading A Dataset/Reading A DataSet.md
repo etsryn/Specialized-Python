@@ -19,13 +19,13 @@ pip install pandas
 
 - Install OpenPyXL (*if not already installed* )
   - If Installing on `Google Colab`
-    - `!pip install openpyxl`
-  - If Installing on `Command Prompt` or `Powershells` like of `VS Code`
-    - `pip install openpyxl`
-
 ```
 !pip install openpyxl
 ```
+  - If Installing on `Command Prompt` or `Powershells` like of `VS Code`
+```
+pip install openpyxl
+```  
 
 # Importing Required Library
 
