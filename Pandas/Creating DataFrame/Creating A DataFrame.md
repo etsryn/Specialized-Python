@@ -1,3 +1,60 @@
+# Reading Datasets in Different File Formats
+
+#### When working with data, we often encounter datasets stored in various file formats. Python provides multiple libraries to efficiently read and process these files. Among them, **Pandas** is one of the most widely used libraries for handling structured data.
+
+#### `Pandas` offers built-in functions to read and write datasets in different formats, including **Excel** (`.xlsx`), **CSV** (`.csv`), **JSON** (`.json`), **TSV** (`.tsv`), **Parquet** (`.parquet`), and more. This guide covers how to work with these file formats effectively.
+
+---
+
+# Installing Required Libraries
+- Install Pandas (*if not already installed* )
+
+  - If Installing on `Google Colab`
+
+  ```
+  !pip install pandas
+  ```
+
+  - If Installing on `Command Prompt` or `Powershells` like of `VS Code`
+
+  ```
+  pip install pandas
+  ```
+
+<br />
+
+- Install OpenPyXL (*if not already installed* )
+
+  - If Installing on `Google Colab`
+
+  ```
+  !pip install openpyxl
+  ```
+
+  - If Installing on `Command Prompt` or `Powershells` like of `VS Code`
+  ```
+  pip install openpyxl
+  ```  
+
+---
+
+# Importing Required Library
+
+```
+import pandas as pd
+```
+
+### What's `as pd` ?
+
+- This assigns the **alias** `pd` to the **Pandas library**
+- Instead of writing `pandas.function_name()`, you can simply use `pd.function_name()`
+- It reduces typing effort and improves code readability
+- **Industry Standard:** Almost all Python developers use pd as the alias
+- **Saves Time:** Instead of writing `pandas.DataFrame()`, we write `pd.DataFrame()`
+- **Improves Readability:** Shortens code while keeping it understandable
+
+<br />
+
 # Pandas **DataFrame**
 
 - Pandas' `DataFrame` is a powerful tool that allows us to store and manipulate data in a **structured** way, similar to an `Excel spreadsheet` or a `SQL Table`. A `DataFrame` is similar to a table with **rows** and **columns**. It helps in handling **large amounts of data**, **performing calculations**, **filtering information** with ease.
