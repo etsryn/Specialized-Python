@@ -116,7 +116,7 @@ dfs = pd.read_excel("data.xlsx", sheet_name=None, engine="openpyxl")
 
 # Reading (`.csv`) File
 
-A CSV (Comma-Separated Values) file is a plain text file that stores tabular data, where each line represents a row and values are separated by commas. It is commonly used for data exchange between software applications, especially in data science, spreadsheets (Excel), and databases.
+A CSV (`Comma-Separated Values`) file is a plain text file that stores **tabular data**, where each line represents a `row` and **values are separated by commas**. It is commonly used for data exchange between **software applications**, especially in **data science**, **spreadsheets (`Excel`)**, and **databases**.
 
 - Pandas provides the `read_csv()` function to load **CSV** Files
 
@@ -194,15 +194,18 @@ df = pd.read_csv("data.csv", delimiter=";")
 | Pipe (`|`)       | Used in logs or structured text formats           |
 
 ### Summary
-> The delimiter parameter ensures Pandas correctly interprets different column separators
+- The delimiter parameter ensures Pandas correctly interprets different column separators
 
-> Use `delimiter=";"` if your dataset uses semicolons instead of commas
+- Use `delimiter=";"` if your dataset uses semicolons instead of commas
 
-> Helps when working with `European CSVs`, `log files`, or `custom-formatted data`
+- Helps when working with `European CSVs`, `log files`, or `custom-formatted data`
 
 ---
 
 # Reading `.json` File
+
+A **JSON** (`JavaScript Object Notation`) file is a **lightweight**, **text-based** format for storing and exchanging **structured data**. It is commonly used in **APIs**, **web development**, and **data storage** due to its **human-readable** and **machine-friendly**   format.
+
 - Pandas provides the `read_json()` function to load **CSV** Files
 
 ```python
@@ -221,6 +224,19 @@ df = pd.read_json("data.json")
 ---
 
 # Reading `.parquet` or .`pqt` Files
+
+A Parquet (.parquet or .pqt) file is a columnar storage format optimized for big data processing and analytics. It is widely used with Apache Spark, Hadoop, Pandas, and other data frameworks due to its efficient compression and fast querying capabilities.
+
+### Key Features:
+- File Extension: .parquet or .pqt
+
+-- Format Type: Binary (not human-readable like CSV or JSON).
+
+- Optimized for: Fast reading/writing (columnar storage reduces I/O operations).
+
+- Compression: Uses efficient techniques like Snappy, Gzip, Brotli.
+
+- Best for: Big data, analytics, distributed processing (works well with Spark, Dask, Pandas).
 
 Install Required Library
 
