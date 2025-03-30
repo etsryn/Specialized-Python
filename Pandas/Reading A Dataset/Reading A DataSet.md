@@ -12,7 +12,7 @@
 ```
 !pip install pandas
 ```
-    - If Installing on `Command Prompt` or `Powershells` like of `VS Code`
+  -- If Installing on `Command Prompt` or `Powershells` like of `VS Code`
 ```
 pip install pandas
 ```
