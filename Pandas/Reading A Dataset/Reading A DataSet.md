@@ -1,8 +1,8 @@
 # Reading Datasets in Different File Formats
 
-> #### When working with data, we often encounter datasets stored in various file formats. Python provides multiple libraries to efficiently read and process these files. Among them, **Pandas** is one of the most widely used libraries for handling structured data.
+#### When working with data, we often encounter datasets stored in various file formats. Python provides multiple libraries to efficiently read and process these files. Among them, **Pandas** is one of the most widely used libraries for handling structured data.
 
-> #### `Pandas` offers built-in functions to read and write datasets in different formats, including **Excel** (`.xlsx`), **CSV** (`.csv`), **JSON** (`.json`), **TSV** (`.tsv`), **Parquet** (`.parquet`), and more. This guide covers how to work with these file formats effectively.
+#### `Pandas` offers built-in functions to read and write datasets in different formats, including **Excel** (`.xlsx`), **CSV** (`.csv`), **JSON** (`.json`), **TSV** (`.tsv`), **Parquet** (`.parquet`), and more. This guide covers how to work with these file formats effectively.
 
 ---
 
