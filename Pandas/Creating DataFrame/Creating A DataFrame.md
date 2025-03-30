@@ -75,7 +75,7 @@ If you print `df`, following will be the output
 > 4  portal
 > 5     for
 > 6   Geeks
-```
+> ```
 
 # Creating DataFrame from dict of Numpy Array
 
