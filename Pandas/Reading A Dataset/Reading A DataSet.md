@@ -21,6 +21,8 @@
   pip install pandas
   ```
 
+<br />
+
 - Install OpenPyXL (*if not already installed* )
 
   - If Installing on `Google Colab`
