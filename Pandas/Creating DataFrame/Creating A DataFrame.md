@@ -46,7 +46,7 @@ import pandas as pd
 df = pd.DataFrame()
 ```
 
-<t /><t /> If you print `df`, following will be the output
+<tab /><tab /> If you print `df`, following will be the output
 > ```
 > Empty DataFrame
 > Columns: []
