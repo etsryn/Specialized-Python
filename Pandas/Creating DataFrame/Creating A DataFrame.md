@@ -4,7 +4,7 @@ Pandas' `DataFrame` is a powerful tool that allows us to store and manipulate da
 
 ---
 
-# Installing Required Libraries
+# Installing Required Library
 - Install Pandas (*if not already installed* )
 
   - If Installing on `Google Colab`
