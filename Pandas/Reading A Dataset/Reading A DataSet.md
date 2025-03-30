@@ -228,15 +228,12 @@ df = pd.read_json("data.json")
 A Parquet (.parquet or .pqt) file is a columnar storage format optimized for big data processing and analytics. It is widely used with Apache Spark, Hadoop, Pandas, and other data frameworks due to its efficient compression and fast querying capabilities.
 
 ### Key Features:
-- File Extension: .parquet or .pqt
 
--- Format Type: Binary (not human-readable like CSV or JSON).
-
-- Optimized for: Fast reading/writing (columnar storage reduces I/O operations).
-
-- Compression: Uses efficient techniques like Snappy, Gzip, Brotli.
-
-- Best for: Big data, analytics, distributed processing (works well with Spark, Dask, Pandas).
+- File Extension: `.parquet` or `.pqt`
+- Format Type: Binary (not human-readable like `CSV` or `JSON`)
+- Optimized for: Fast **reading/writing** (**`columnar storage reduces I/O operations`**)
+- Compression: Uses efficient techniques like `Snappy`, `Gzip`, `Brotli`.
+- Best for: **Big data**, **analytics**, **distributed processing** (works well with `Spark`, `Dask`, `Pandas`)
 
 Install Required Library
 
