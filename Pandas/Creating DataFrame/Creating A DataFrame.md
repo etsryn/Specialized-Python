@@ -46,11 +46,11 @@ import pandas as pd
 df = pd.DataFrame()
 ```
 
-&nbsp; &nbsp; &nbsp; If you print `df`, following will be the output
+If you print `df`, following will be the output
 > ```
-> Empty DataFrame
-> Columns: []
-> Index: []
+>   Empty DataFrame
+>   Columns: []
+>   Index: []
 > ```
 
 # Creating a DataFrame from a List
@@ -65,16 +65,16 @@ lst = ['Geeks', 'For', 'Geeks', 'is', 'portal', 'for', 'Geeks']
 df = pd.DataFrame(lst)
 ```
 
-> If you print `df`, following will be the output
-```
-       0
-0   Geeks
-1     For
-2   Geeks
-3      is
-4  portal
-5     for
-6   Geeks
+If you print `df`, following will be the output
+> ```
+>        0
+> 0   Geeks
+> 1     For
+> 2   Geeks
+> 3      is
+> 4  portal
+> 5     for
+> 6   Geeks
 ```
 
 # Creating DataFrame from dict of Numpy Array
@@ -86,13 +86,13 @@ data = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 df = pd.DataFrame(data, columns=['A', 'B', 'C'])
 ```
 
-> If you print `df`, following will be the output
-```
-   A  B  C
-0  1  2  3
-1  4  5  6
-2  7  8  9
-```
+If you print `df`, following will be the output
+> ```
+>    A  B  C
+> 0  1  2  3
+> 1  4  5  6
+> 2  7  8  9
+> ```
 
 # Creating a DataFrame from a List of Dictionaries  
 
@@ -107,11 +107,11 @@ df = pd.DataFrame(dict)
 
 ```
 
-> If you print `df`, following will be the output
-```
-     name  degree  score
-0  aparna     MBA     90
-1  pankaj     BCA     40
-2  sudhir  M.Tech     80
-3   Geeku     MBA     98
+If you print `df`, following will be the output
+> ```
+>      name  degree  score
+> 0  aparna     MBA     90
+> 1  pankaj     BCA     40
+> 2  sudhir  M.Tech     80
+> 3   Geeku     MBA     98
 ```
