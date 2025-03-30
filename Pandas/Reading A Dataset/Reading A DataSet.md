@@ -3,7 +3,7 @@
 #### When working with data, we often encounter datasets stored in various file formats. Python provides multiple libraries to efficiently read and process these files. Among them, **Pandas** is one of the most widely used libraries for handling structured data.
 
 #### `Pandas` offers built-in functions to read and write datasets in different formats, including **Excel** (`.xlsx`), **CSV** (`.csv`), **JSON** (`.json`), **TSV** (`.tsv`), **Parquet** (`.parquet`), and more. This guide covers how to work with these file formats effectively.
-○
+
 ---
 
 # Installing Required Libraries
@@ -22,14 +22,17 @@
   ```
 
 - Install OpenPyXL (*if not already installed* )
+
   - If Installing on `Google Colab`
-```
-!pip install openpyxl
-```
+
+  ```
+  !pip install openpyxl
+  ```
+
   - If Installing on `Command Prompt` or `Powershells` like of `VS Code`
-```
-pip install openpyxl
-```  
+  ```
+  pip install openpyxl
+  ```  
 
 # Importing Required Library
 
