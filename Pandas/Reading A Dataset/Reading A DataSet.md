@@ -116,6 +116,8 @@ dfs = pd.read_excel("data.xlsx", sheet_name=None, engine="openpyxl")
 
 # Reading (`.csv`) File
 
+A CSV (Comma-Separated Values) file is a plain text file that stores tabular data, where each line represents a row and values are separated by commas. It is commonly used for data exchange between software applications, especially in data science, spreadsheets (Excel), and databases.
+
 - Pandas provides the `read_csv()` function to load **CSV** Files
 
 ```python
