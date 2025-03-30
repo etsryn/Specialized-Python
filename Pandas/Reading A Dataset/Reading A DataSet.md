@@ -155,7 +155,7 @@ Charlie;28;Canada
 
 -  If we load this without specifying the delimiter:
 
-```
+```python
 df = pd.read_csv("data.csv")  # Default delimiter is ","
 ```
 
