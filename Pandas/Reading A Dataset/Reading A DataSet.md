@@ -71,6 +71,8 @@ df = pd.read_excel("data.xlsx")
 
 > Pandas will internally select `openpyxl` as the engine by default if the file format is `.xlsx`
 
+<br />
+
 ### When Should You Explicitly Use engine="openpyxl"?
 
 - To Avoid Compatibility Issues:
